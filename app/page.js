@@ -112,7 +112,7 @@ export default function Home() {
           <div className="absolute">
             <Image
               className="absolute mx-[200px] my-[200px]"
-              src={"/Assets/Images/group.png"}
+              src={"/Assets/Images/Group.png"}
               alt=""
             />
             <Image src={"/Assets/Images/house2.png"} alt="" />
@@ -347,7 +347,7 @@ export default function Home() {
             </h2>
           </div>
         </div>
-        <div className="mx-[100px] -mt-[60px]">
+        <div className="mx-[100px] -mt-[60px] w-[500px]">
           <div className="inline-flex">
             <Image src={"/Assets/Images/property1.png"} alt="" />
             <Image src={"/Assets/Images/property2.png"} alt="" />
