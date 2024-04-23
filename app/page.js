@@ -37,7 +37,7 @@ export default function Home() {
       {/* Trust */}
       <div className="mt-[170px] ">
         <Image
-          className="absolute w-full my-[-100px] mx-[250px]"
+          className="absolute my-[-100px] mx-[250px]"
           src={"/Assets/Images/Ellipse.png"}
           alt="allipse"
         />
