@@ -347,7 +347,7 @@ export default function Home() {
             </h2>
           </div>
         </div>
-        <div className="mx-[100px] -mt-[60px] ">
+        <div className="mx-[100px] -mt-[60px] inline-block ">
           <div className="inline-flex w-[500px]">
             <Image src={"/Assets/Images/property1.png"} alt="" />
             <Image src={"/Assets/Images/property2.png"} alt="" />
@@ -424,7 +424,7 @@ export default function Home() {
         <h1 className="text-center text-white font-medium text-[39.8px]">
           Latest Blogs & Posts
         </h1>
-        <div className="inline-flex mx-6 mt-5">
+        <div className="inline-flex mx-4 mt-5">
           <div className="inline-block">
             <Image src={"/Assets/Images/blog1.png"} alt="" />
             <div className="w-[250px] -mt-1 ml-5">
