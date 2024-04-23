@@ -165,7 +165,7 @@ export default function Home() {
       {/* Image Container */}
       <div className="mt-[40px] inline-flex mx-[100px] space-x-6 mb-[100px]">
         <div>
-          <div className="absolute bg-[#FFE1E1] inline-flex mt-[215px] ml-[20px] p-1 rounded-[20px] space-x-2 px-3">
+          <div className="absolute bg-[#FFE1E1] inline-flex mt-[210px] ml-[20px] p-1 rounded-[20px] space-x-2 px-3">
             <Image src={"/Assets/Icons/fire.svg"} alt="" />
             <h1 className="text-[#FF1111]">Popular</h1>
           </div>
@@ -193,7 +193,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className="absolute bg-[#D7EEFF] inline-flex mt-[215px] ml-[20px] p-1 rounded-[20px] space-x-2 px-3">
+          <div className="absolute bg-[#D7EEFF] inline-flex mt-[210px] ml-[20px] p-1 rounded-[20px] space-x-2 px-3">
             <Image src={"/Assets/Icons/home.svg"} alt="" />
             <h1 className="text-[#119BFF]">New Listing</h1>
           </div>
@@ -221,7 +221,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className="absolute bg-[#F1FFF1] inline-flex mt-[215px] ml-[20px] p-1 rounded-[20px] space-x-2 px-3">
+          <div className="absolute bg-[#F1FFF1] inline-flex mt-[210px] ml-[20px] p-1 rounded-[20px] space-x-2 px-3">
             <Image src={"/Assets/Icons/dollar.svg"} alt="" />
             <h1 className="text-[#00CE3A]">Discounted Price</h1>
           </div>
@@ -249,7 +249,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className=" w-[70px] absolute bg-[#FFE1E1] inline-flex mt-[215px] ml-[20px] p-1 rounded-[20px] space-x-0 px-3">
+          <div className=" w-[70px] absolute bg-[#FFE1E1] inline-flex mt-[210px] ml-[20px] p-1 rounded-[20px] space-x-0 px-3">
             <Image src={"/Assets/Icons/fire.svg"} alt="" />
             <h1 className="text-[#FF1111] text-wrap">Pop</h1>
           </div>
