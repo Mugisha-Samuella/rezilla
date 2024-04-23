@@ -88,6 +88,7 @@ export default function Home() {
               className=""
               src={"/Assets/Icons/smarthome.svg"}
               alt="smarthome"
+
             />
             <div>
               <h1 className="text-[#4361EE]">Donec porttitor euismod</h1>
@@ -354,7 +355,7 @@ export default function Home() {
           </div>
           <div className="inline-flex">
             <Image src={"/Assets/Images/property4.png"} alt="" />
-            <Image src={"/Assets/Images/property5.png"} alt="" />
+            <Image src={"/Assets/Images/propert5.png"} alt="" />
           </div>
         </div>
       </div>
