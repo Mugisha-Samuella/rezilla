@@ -85,7 +85,7 @@ export default function Home() {
           </p>
           <div className="mb-5 inline-flex space-x-5 shadow-lg shadow-slate-200 rounded-[30px] p-4">
             <Image
-              className="w-full"
+              className=""
               src={"/Assets/Icons/smarthome.svg"}
               alt="smarthome"
             />
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div className="inline-flex space-x-5 shadow-lg shadow-slate-200 rounded-[30px] p-4">
             <Image
-              className="w-full"
+              className=""
               src={"/Assets/Icons/user.svg"}
               alt="smarthome"
             />
