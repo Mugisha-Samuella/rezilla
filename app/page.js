@@ -348,12 +348,12 @@ export default function Home() {
           </div>
         </div>
         <div className="mx-[100px] -mt-[60px] inline-block ">
-          <div className="inline-flex w-[500px]">
+          <div className="inline-flex ">
             <Image src={"/Assets/Images/property1.png"} alt="" />
             <Image src={"/Assets/Images/property2.png"} alt="" />
             <Image src={"/Assets/Images/property3.png"} alt="" />
           </div>
-          <div className="inline-flex w-[500px]">
+          <div className="inline-flex">
             <Image src={"/Assets/Images/property4.png"} alt="" />
             <Image src={"/Assets/Images/propert5.png"} alt="" />
           </div>
