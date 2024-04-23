@@ -37,7 +37,7 @@ export default function Home() {
       {/* Trust */}
       <div className="mt-[170px] ">
         <Image
-          className="absolute my-[-100px] mx-[250px]"
+          className="absolute w-full my-[-100px] mx-[250px]"
           src={"/Assets/Images/Ellipse.png"}
           alt="allipse"
         />
@@ -85,7 +85,7 @@ export default function Home() {
           </p>
           <div className="mb-5 inline-flex space-x-5 shadow-lg shadow-slate-200 rounded-[30px] p-4">
             <Image
-              className=""
+              className="w-full"
               src={"/Assets/Icons/smarthome.svg"}
               alt="smarthome"
             />
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div className="inline-flex space-x-5 shadow-lg shadow-slate-200 rounded-[30px] p-4">
             <Image
-              className=""
+              className="w-full"
               src={"/Assets/Icons/user.svg"}
               alt="smarthome"
             />
