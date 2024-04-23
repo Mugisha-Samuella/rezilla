@@ -38,7 +38,7 @@ export default function Home() {
       <div className="mt-[170px] ">
         <Image
           className="absolute my-[-100px] mx-[250px]"
-          src={"/Assets/Images/ellipse.png"}
+          src={"/Assets/Images/Ellipse.png"}
           alt="allipse"
         />
         <h1 className="text-center text-md text-slate-400 mb-5 ">
@@ -115,7 +115,7 @@ export default function Home() {
               alt=""
             />
             <Image src={"/Assets/Images/house2.png"} alt="" />
-            <Image className="absolute ml-6 mt-[160px]" src={ellipse} alt="" />
+            <Image className="absolute ml-6 mt-[160px]" src={"/Assets/Images/Ellipse.png"} alt="" />
             <Image
               className="mx-[100px]"
               src={"/Assets/Images/house3.png"}
@@ -363,7 +363,7 @@ export default function Home() {
         <Image
           className="absolute -my-[30px] mx-[1000px]"
           alt=""
-          src={ellipse}
+          src={"/Assets/Images/Ellipse.png"}
         />
         <div>
           <div className="text-center mt-[170px]">
@@ -454,7 +454,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="ml-[300px] mt-3">
-              <Image src={arrow} alt="" />
+              <Image src={"/Assets/Icons/arrow.svg"} alt="" />
             </div>
           </div>
           <div className="inline-block">
@@ -469,7 +469,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="ml-[300px] mt-3">
-              <Image src={arrow} alt="" />
+              <Image src={"/Assets/Icons/arrow.svg"} alt="" />
             </div>
           </div>
         </div>
