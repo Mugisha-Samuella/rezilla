@@ -111,7 +111,7 @@ export default function Home() {
           <div className="absolute">
             <Image
               className="absolute mx-[200px] my-[200px]"
-              src={"/Assets/Images/group.png"}
+              src={"/Assets/Images/Group.png"}
               alt=""
             />
             <Image src={"/Assets/Images/house2.png"} alt="" />
