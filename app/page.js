@@ -9,7 +9,7 @@ export default function Home() {
         </div>
       </div>
       {/* Hero */}
-      <Image className="absolute w-full" src={"/Assets/Images/circle.png"} alt=""  />
+      <Image className="absolute w-full" src={"/Assets/Images/circle.png"} alt="" />
       <div className="relative">
         <h1 className="text-5xl mb-5 text-center my-[90px] font-extrabold">
           Find a perfect home you love!
@@ -111,7 +111,7 @@ export default function Home() {
           <div className="absolute">
             <Image
               className="absolute mx-[200px] my-[200px]"
-              src={"/Assets/Images/Group.png"}
+              src={"/Assets/Images/group.png"}
               alt=""
             />
             <Image src={"/Assets/Images/house2.png"} alt="" />
