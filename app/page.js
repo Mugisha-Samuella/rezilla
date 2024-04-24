@@ -548,11 +548,8 @@ export default function Home() {
         <div>
           <Image
             className="absolute -mt-6 ml-5"
-            layout="intrinsic"
             src={"/Assets/Images/agent.png"}
             alt=""
-            width={600}
-            height={600}
           />
           <div className="text-white mx-1 w-[500px] ml-[400px] mt-[70px]">
             <h1 className="text-[30px] font-semibold word">Become an Agent.</h1>
