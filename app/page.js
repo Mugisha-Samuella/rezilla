@@ -548,6 +548,7 @@ export default function Home() {
         <div>
           <Image
             className="absolute -mt-6 ml-5"
+            layout="intrinsic"
             src={"/Assets/Images/agent.png"}
             alt=""
             width={600}
