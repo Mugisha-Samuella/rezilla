@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <div className="bg-[#4362ee2e] mt-[60px] h-[350px]">
@@ -9,6 +11,8 @@ const Footer = () => {
                 className=" relative  items-center "
                 src={"/Assets/Icons/logo.svg"}
                 alt=""
+                width={25}
+                height={25}
               />
             </div>
             <h1 className="">Rezilla</h1>
@@ -19,11 +23,13 @@ const Footer = () => {
             </h2>
             <div className="flex flex-col">
               <div className="inline-flex mt-[30px]">
-                <Image src={"/Assets/Icons/phone.svg"} alt="" />
+                <Image src={"/Assets/Icons/phone.svg"} alt="" width={20}
+                height={20}/>
                 <h2>+1 206-214-2298</h2>
               </div>
               <div className="inline-flex mt-[20px]">
-                <Image src={"/Assets/Icons/mail.svg"} alt="" />
+                <Image src={"/Assets/Icons/mail.svg"} alt=""  width={20}
+                height={20}/>
                 <h2>support@rezilla.com</h2>
               </div>
             </div>
@@ -53,7 +59,8 @@ const Footer = () => {
             </h1>
             <div className="bg-white mt-4 p-2 rounded-[30px] shadow-md">
               <div className="absolute -mt-[8px]  ml-[155px] shadow-2xl rounded-full bg-[#3A0CA3] p-[13px]">
-                <Image src={"/Assets/Icons/arrowlast.svg"} alt="" />
+                <Image src={"/Assets/Icons/arrowlast.svg"} alt="" width={20}
+                height={20} />
               </div>
               <h4 className="text-[#AAAAAA] pl-2">Email...</h4>
             </div>

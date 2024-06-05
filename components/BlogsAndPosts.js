@@ -1,14 +1,14 @@
 import Image from "next/image";
 const BlogsAndPosts = () => {
   return (
-    <div className="bg-[#3A0CA3] mt-[150px] pb-[40px]">
+    <div className="bg-[#3A0CA3] mt-[150px] pb-[40px] ">
       <h2 className="uppercase text-white text-center font-medium text-[19.4px] pt-[60px]">
         what's trending
       </h2>
       <h1 className="text-center text-white font-medium text-[39.8px]">
         Latest Blogs & Posts
       </h1>
-      <div className="flex flex-col md:flex-row mx-4 mt-5">
+      <div className="flex flex-col md:flex-row justify-center items-center mx-4 mt-5">
         <div className="inline-block">
           <Image src={"/Assets/Images/blog1.png"} width={400} height={400} alt="" />
           <div className="w-[250px] -mt-1 ml-5">

@@ -9,6 +9,7 @@ import Experts from "../components/Experts";
 import BlogsAndPosts from "../components/BlogsAndPosts";
 import Testimonials from "../components/Testimonials";
 import BecomeAnAgent from "../components/BecomeAnAgent";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,10 +20,11 @@ export default function Home() {
        <LatestProperties/>
      <ImageContainer/> 
        <Services/>
-     {/* <Experts/>
+      <Experts/>
       <BlogsAndPosts/>
-      <Testimonials/>    */}
+      <Testimonials/>    
       {/*<BecomeAnAgent/>*/}
+      <Footer/>
     </div>
   );
 }
