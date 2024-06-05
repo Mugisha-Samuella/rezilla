@@ -21,13 +21,13 @@ const Footer = () => {
             <h2 className="w-[200px]">
               2728 Hickory StreetSalt Lake City, UT 84104
             </h2>
-            <div className="flex flex-col">
-              <div className="inline-flex mt-[30px]">
+            <div className="flex flex-col ">
+              <div className="inline-flex mt-[30px] gap-2">
                 <Image src={"/Assets/Icons/phone.svg"} alt="" width={20}
                 height={20}/>
                 <h2>+1 206-214-2298</h2>
               </div>
-              <div className="inline-flex mt-[20px]">
+              <div className="inline-flex mt-[20px] gap-2">
                 <Image src={"/Assets/Icons/mail.svg"} alt=""  width={20}
                 height={20}/>
                 <h2>support@rezilla.com</h2>
@@ -58,7 +58,7 @@ const Footer = () => {
               Subscribe to our Newsletter!
             </h1>
             <div className="bg-white mt-4 p-2 rounded-[30px] shadow-md">
-              <div className="absolute -mt-[8px]  ml-[155px] shadow-2xl rounded-full bg-[#3A0CA3] p-[13px]">
+              <div className="absolute -mt-[10.5px]  ml-[158px] shadow-2xl rounded-full bg-[#3A0CA3] p-[13px]">
                 <Image src={"/Assets/Icons/arrowlast.svg"} alt="" width={20}
                 height={20} />
               </div>

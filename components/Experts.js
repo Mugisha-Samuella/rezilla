@@ -30,7 +30,7 @@ const Experts = () => {
               <h2 className=" font-semibold font-poppins text-[19.8px]">
                 Brendon M
               </h2>
-              <h1 className=" text-blue-600 font-md text-[10px]">
+              <h1 className=" text-blue-600 font-md text-[15px]">
                 CEO & Founder
               </h1>
             </div>
@@ -44,7 +44,7 @@ const Experts = () => {
               <h2 className=" font-semibold font-poppins text-[19.8px]">
                 Jodi J. Appleby
               </h2>
-              <h1 className=" text-blue-600 font-md text-[10px]">
+              <h1 className=" text-blue-600 font-md text-[15px]">
                 Real Estate Developer
               </h1>
             </div>
@@ -60,7 +60,7 @@ const Experts = () => {
               <h2 className=" font-semibold font-poppins text-[19.8px]">
                 Justin S. Meza
               </h2>
-              <h1 className=" text-blue-600 font-md text-[10px]">
+              <h1 className=" text-blue-600 font-md text-[15px]">
                 Listing Agent
               </h1>
             </div>
@@ -74,7 +74,7 @@ const Experts = () => {
               <h2 className=" font-semibold font-poppins text-[19.8px]">
                 Susan T. Smith
               </h2>
-              <h1 className=" text-blue-600 font-md text-[10px]">
+              <h1 className=" text-blue-600 font-md text-[15px]">
                 Buyer's Agent
               </h1>
             </div>
