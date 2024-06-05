@@ -58,7 +58,7 @@ const Footer = () => {
               Subscribe to our Newsletter!
             </h1>
             <div className="bg-white mt-4 p-2 rounded-[30px] shadow-md">
-              <div className="absolute -mt-[10.5px]  ml-[158px] shadow-2xl rounded-full bg-[#3A0CA3] p-[13px]">
+              <div className="absolute -mt-[10.5px]  ml-[158px] shadow-2xl rounded-full bg-[#4361EE] p-[13px]">
                 <Image src={"/Assets/Icons/arrowlast.svg"} alt="" width={20}
                 height={20} />
               </div>

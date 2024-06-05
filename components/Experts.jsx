@@ -18,8 +18,8 @@ const Experts = () => {
             Our Team of Experts
           </h2>
         </div>
-        <div className="flex flex-col md:flex-row  pt-4 items-center justify-center">
-          <div className="flex flex-row gap-4 space-x-10">
+        <div className="flex flex-col md:flex-row space-x-[5rem]  pt-[2rem] items-center justify-center">
+          <div className="flex flex-row gap-4 space-x-[5rem]">
             <div className="text-center">
               <Image
                 src={"/Assets/Images/person4.png"}
@@ -49,7 +49,7 @@ const Experts = () => {
               </h1>
             </div>
           </div>
-          <div className="flex flex-row gap-4 text-center">
+          <div className="flex flex-row gap-4  space-x-[5rem] text-center">
             <div>
               <Image
                 width={150}
