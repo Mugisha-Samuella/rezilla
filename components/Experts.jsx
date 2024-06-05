@@ -18,8 +18,8 @@ const Experts = () => {
             Our Team of Experts
           </h2>
         </div>
-        <div className="flex flex-col md:flex-row  gap-4 pt-4 items-center justify-center">
-          <div className="flex flex-row gap-4">
+        <div className="flex flex-col md:flex-row  pt-4 items-center justify-center">
+          <div className="flex flex-row gap-4 space-x-10">
             <div className="text-center">
               <Image
                 src={"/Assets/Images/person4.png"}
